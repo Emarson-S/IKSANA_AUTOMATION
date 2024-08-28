@@ -13,6 +13,6 @@ await page.click("//button[text()='Sign in']");
 
 const text =await page.locator("(//small[@class='fs-10 mb-0 text-uppercase text-mute'])[1]").textContent();
 
-
+console.log(text);
 
 })
