@@ -10,4 +10,8 @@ await page.fill("input[placeholder='Enter password']", 'Emarson@123');
     
 await page.click("//button[text()='Sign in']");
 
+const text = await page.getByText("//small[@class='fs-10 mb-0 text-uppercase text-mute']");
+
+console.log(text);
+
 })
